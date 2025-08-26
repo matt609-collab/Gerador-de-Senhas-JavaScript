@@ -1,1 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
+:root {
+  --branco: white;
+  --cor-de-fundo: #00162E;
+  --fundo-senha: #00244D;
+  --fuundo-texto: #001E40;
+  --borda: #0075FF;
+  --roboto: 'Roboto', sans-serif;
+  --roboto-mono: 'Roboto Mono", monospace;
+}
+
+* {
+  font-weight: 400;
+}
+
+body {
+  color: var(--branco);
+  background-color: var(--cor-de-fundo);
+  font-family: var(--roboto);
+}
