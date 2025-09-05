@@ -71,11 +71,11 @@ body {
   font-size: 28px;
 }
 
-.parametro-senha_titulo{
+.parametro-senha__titulo{
   font-size: 24px;
 }
 
-.parametro-coluna_titulo{
+.parametro-coluna__titulo{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -91,7 +91,7 @@ body {
   justify-content: center;
 }
 
-.parametro-senha_botao{
+.parametro-senha__botao{
   background-color: var(--fundo-texto);
   color: var(--branco);
   border: 2px solid var(--borda);
@@ -100,7 +100,7 @@ body {
   cursor: pointer;
 }
 
-.parametro-senha_texto{
+.parametro-senha__texto{
   padding: 24px;
   border-top: 2px solid var(--borda);
   border-bottom: 2px solid var(--borda);
