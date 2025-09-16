@@ -8,13 +8,14 @@ const simbolos= '!@#$%¨&*()';
 const checkbox = document.querySelectorAll('.checkbox');
 let tamanhoSenha = 12;
 
-for (i = 0; i < checkbox.length; i++) {
-        checkbox[i].onclick = geraSenha;
-    }
-
 numeroSenha.textContent = tamanhoSenha;
 botoes[0].onclick = aumentaTamanho();
 botoes[1].onclick = diminuiTamanho();
+
+for (i = 0; i < checkbox.length; i++) {
+    checkbox[i].onclick = geraSenha;
+}
+
 
 function diminuiTamanho(){
     if (tamanhoSenha > 1) {
@@ -55,4 +56,8 @@ function geraSenha(){
         senha = senha + alfabeto[numeroAleatório];
 
     }
+}
+
+function classificaSenha(){
+
 }
