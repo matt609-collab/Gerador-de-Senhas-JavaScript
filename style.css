@@ -72,7 +72,8 @@ body {
 }
 
 .parametro-senha__titulo{
-  font-size: 24px;
+  font-size: 38px;
+  text-align: center;
 }
 
 .parametro-coluna__titulo{
@@ -148,6 +149,18 @@ label{
 .parametro-senha-texto{
   display:flex;
   justify-content: space-between;
+}
+
+.senhadisplay{
+  text-align: center;
+  font-size: 32px;
+}
+
+.entropia{
+  text-align: center;
+  font-size: 28px;
+  color: red;
+  font-style: italic;
 }
 
 @media screen and(min-width : 768px){
